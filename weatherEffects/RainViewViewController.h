@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RainViewViewController.h
 //  weatherEffects
 //
 //  Created by gaoyong on 14-8-28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RainViewViewController : UIViewController
 
 @end

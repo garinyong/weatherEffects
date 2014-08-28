@@ -13,14 +13,18 @@
 		EE0A38B219AF09D700362BAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38B019AF09D700362BAF /* InfoPlist.strings */; };
 		EE0A38B419AF09D700362BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38B319AF09D700362BAF /* main.m */; };
 		EE0A38B819AF09D700362BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38B719AF09D700362BAF /* AppDelegate.m */; };
-		EE0A38BB19AF09D700362BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38B919AF09D700362BAF /* Main.storyboard */; };
-		EE0A38BE19AF09D700362BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38BD19AF09D700362BAF /* ViewController.m */; };
 		EE0A38C019AF09D700362BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38BF19AF09D700362BAF /* Images.xcassets */; };
 		EE0A38C719AF09D700362BAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A38C619AF09D700362BAF /* XCTest.framework */; };
 		EE0A38C819AF09D700362BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A38A719AF09D700362BAF /* Foundation.framework */; };
 		EE0A38C919AF09D700362BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A38AB19AF09D700362BAF /* UIKit.framework */; };
 		EE0A38D119AF09D700362BAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38CF19AF09D700362BAF /* InfoPlist.strings */; };
 		EE0A38D319AF09D700362BAF /* weatherEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38D219AF09D700362BAF /* weatherEffectsTests.m */; };
+		EE0A38DF19AF0A4600362BAF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38DD19AF0A4600362BAF /* HomeViewController.m */; };
+		EE0A38E019AF0A4600362BAF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38DE19AF0A4600362BAF /* HomeViewController.xib */; };
+		EE0A38E319AF0A8700362BAF /* ParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38E219AF0A8700362BAF /* ParallaxViewController.m */; };
+		EE0A38E919AF0B4E00362BAF /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38E719AF0B4E00362BAF /* cloud@2x.png */; };
+		EE0A38EC19AF264F00362BAF /* RainViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38EB19AF264F00362BAF /* RainViewViewController.m */; };
+		EE0A38EE19AF26B800362BAF /* yudi.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38ED19AF26B800362BAF /* yudi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +48,22 @@
 		EE0A38B519AF09D700362BAF /* weatherEffects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weatherEffects-Prefix.pch"; sourceTree = "<group>"; };
 		EE0A38B619AF09D700362BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE0A38B719AF09D700362BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE0A38BA19AF09D700362BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE0A38BC19AF09D700362BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE0A38BD19AF09D700362BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE0A38BF19AF09D700362BAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE0A38C519AF09D700362BAF /* weatherEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A38C619AF09D700362BAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EE0A38CE19AF09D700362BAF /* weatherEffectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weatherEffectsTests-Info.plist"; sourceTree = "<group>"; };
 		EE0A38D019AF09D700362BAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE0A38D219AF09D700362BAF /* weatherEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherEffectsTests.m; sourceTree = "<group>"; };
+		EE0A38DC19AF0A4600362BAF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE0A38DD19AF0A4600362BAF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EE0A38DE19AF0A4600362BAF /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EE0A38E119AF0A8700362BAF /* ParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxViewController.h; sourceTree = "<group>"; };
+		EE0A38E219AF0A8700362BAF /* ParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxViewController.m; sourceTree = "<group>"; };
+		EE0A38E419AF0B0D00362BAF /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		EE0A38E719AF0B4E00362BAF /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@2x.png"; sourceTree = "<group>"; };
+		EE0A38EA19AF264F00362BAF /* RainViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainViewViewController.h; sourceTree = "<group>"; };
+		EE0A38EB19AF264F00362BAF /* RainViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainViewViewController.m; sourceTree = "<group>"; };
+		EE0A38ED19AF26B800362BAF /* yudi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yudi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +123,19 @@
 		EE0A38AD19AF09D700362BAF /* weatherEffects */ = {
 			isa = PBXGroup;
 			children = (
+				EE0A38E519AF0B4E00362BAF /* img */,
+				EE0A38E419AF0B0D00362BAF /* define.h */,
+				EE0A38E119AF0A8700362BAF /* ParallaxViewController.h */,
+				EE0A38E219AF0A8700362BAF /* ParallaxViewController.m */,
+				EE0A38DC19AF0A4600362BAF /* HomeViewController.h */,
+				EE0A38DD19AF0A4600362BAF /* HomeViewController.m */,
+				EE0A38DE19AF0A4600362BAF /* HomeViewController.xib */,
 				EE0A38B619AF09D700362BAF /* AppDelegate.h */,
 				EE0A38B719AF09D700362BAF /* AppDelegate.m */,
-				EE0A38B919AF09D700362BAF /* Main.storyboard */,
-				EE0A38BC19AF09D700362BAF /* ViewController.h */,
-				EE0A38BD19AF09D700362BAF /* ViewController.m */,
 				EE0A38BF19AF09D700362BAF /* Images.xcassets */,
 				EE0A38AE19AF09D700362BAF /* Supporting Files */,
+				EE0A38EA19AF264F00362BAF /* RainViewViewController.h */,
+				EE0A38EB19AF264F00362BAF /* RainViewViewController.m */,
 			);
 			path = weatherEffects;
 			sourceTree = "<group>";
@@ -150,6 +167,15 @@
 				EE0A38CF19AF09D700362BAF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE0A38E519AF0B4E00362BAF /* img */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A38ED19AF26B800362BAF /* yudi.png */,
+				EE0A38E719AF0B4E00362BAF /* cloud@2x.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0A38C019AF09D700362BAF /* Images.xcassets in Resources */,
+				EE0A38EE19AF26B800362BAF /* yudi.png in Resources */,
 				EE0A38B219AF09D700362BAF /* InfoPlist.strings in Resources */,
-				EE0A38BB19AF09D700362BAF /* Main.storyboard in Resources */,
+				EE0A38E019AF0A4600362BAF /* HomeViewController.xib in Resources */,
+				EE0A38E919AF0B4E00362BAF /* cloud@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0A38BE19AF09D700362BAF /* ViewController.m in Sources */,
+				EE0A38EC19AF264F00362BAF /* RainViewViewController.m in Sources */,
 				EE0A38B819AF09D700362BAF /* AppDelegate.m in Sources */,
 				EE0A38B419AF09D700362BAF /* main.m in Sources */,
+				EE0A38DF19AF0A4600362BAF /* HomeViewController.m in Sources */,
+				EE0A38E319AF0A8700362BAF /* ParallaxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +312,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		EE0A38B919AF09D700362BAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE0A38BA19AF09D700362BAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EE0A38CF19AF09D700362BAF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,7 +339,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yong Gao (VHFB68NPJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yong Gao (VHFB68NPJA)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -333,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
