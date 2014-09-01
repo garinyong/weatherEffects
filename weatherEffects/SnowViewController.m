@@ -1,18 +1,18 @@
 //
-//  RainViewViewController.m
+//  SnowViewController.m
 //  weatherEffects
-//  下雨
-//  Created by gaoyong on 14-8-28.
+//
+//  Created by gaoyong on 14-9-1.
 //  Copyright (c) 2014年 gaoyong. All rights reserved.
 //
 
-#import "RainViewViewController.h"
+#import "SnowViewController.h"
 
-@interface RainViewViewController ()
+@interface SnowViewController ()
 
 @end
 
-@implementation RainViewViewController
+@implementation SnowViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,9 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    self.view.backgroundColor = [UIColor colorWithRed:58/255.0 green:99/255.0 blue:132/255.0 alpha:1];
-
     [self addTaste];
 }
 
@@ -44,22 +43,17 @@
 	
     //粒子
 	CAEmitterCell *rainCell = [CAEmitterCell emitterCell];
-    rainCell.contents		= (id) [[UIImage imageNamed:@"rain"] CGImage];
-	rainCell.color			= [[UIColor colorWithRed:112/255.0 green:148/255.0 blue:176/255.0 alpha:1] CGColor];
-    
-    rainCell.emissionLongitude = 0.01 * M_PI; //XY平面方向的发射角
-//    rainCell.spin = 0.1 * M_PI;
-    
-    rainCell.birthRate		= 40;    //每s 发射的粒子个数
-	rainCell.lifetime		= 8.0;   //每个粒子显示的时间
-    rainCell.lifetimeRange  = 2;     //变化幅度
-    rainCell.scale = 0.13;
-	rainCell.velocity		= -1000; //速度
-    
-	rainEmitter.shadowOpacity = 1.0;
-	rainEmitter.shadowRadius  = 0.0;
-	rainEmitter.shadowOffset  = CGSizeMake(0.0, 1.0);
-	rainEmitter.shadowColor   = [[UIColor whiteColor] CGColor];
+    rainCell.contents		= (id) [[UIImage imageNamed:@"snow"] CGImage];
+    rainCell.birthRate		= 5.0;
+    rainCell.lifetime		= 20;
+	
+	rainCell.velocity		= -100;
+	rainCell.velocityRange = 0;
+	rainCell.yAcceleration = 2;
+    rainCell.emissionRange = 0.5 * M_PI;
+    rainCell.spinRange		= 0.5 * M_PI;
+    rainCell.scale = 0.2;
+    rainCell.color			= [[UIColor whiteColor] CGColor];
 	
 	rainEmitter.emitterCells = [NSArray arrayWithObject:rainCell];
 	[self.view.layer insertSublayer:rainEmitter atIndex:0];

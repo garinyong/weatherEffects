@@ -9,6 +9,8 @@
 #import "HomeViewController.h"
 #import "ParallaxViewController.h"
 #import "RainViewViewController.h"
+#import "SnowViewController.h"
+#import "SunnyViewController.h"
 
 @interface HomeViewController ()
 
@@ -82,9 +84,21 @@
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
+        case 1:
+        {
+            SunnyViewController *vc = [SunnyViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
         case 2:
         {
             RainViewViewController *vc = [RainViewViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 3:
+        {
+            SnowViewController *vc = [SnowViewController new];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
