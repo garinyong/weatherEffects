@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84319B9C-128B-43EB-AED2-A5C481288A7C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>weatherEffects</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>464486ED-46E3-4690-BFC8-2933AACDEDCA</key>
+		<string>https://github.com/garinyong/weatherEffects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>weatherEffects.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>464486ED-46E3-4690-BFC8-2933AACDEDCA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/garinyong/weatherEffects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>464486ED-46E3-4690-BFC8-2933AACDEDCA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>464486ED-46E3-4690-BFC8-2933AACDEDCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>weatherEffects</string>
+		</dict>
+	</array>
+</dict>
+</plist>

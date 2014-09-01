@@ -25,6 +25,7 @@
 		EE0A38E919AF0B4E00362BAF /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38E719AF0B4E00362BAF /* cloud@2x.png */; };
 		EE0A38EC19AF264F00362BAF /* RainViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A38EB19AF264F00362BAF /* RainViewViewController.m */; };
 		EE0A38EE19AF26B800362BAF /* yudi.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0A38ED19AF26B800362BAF /* yudi.png */; };
+		EE8F6F5719B1E44C00141D1E /* CUSSenderRain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8F6F5619B1E44C00141D1E /* CUSSenderRain@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		EE0A38EA19AF264F00362BAF /* RainViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainViewViewController.h; sourceTree = "<group>"; };
 		EE0A38EB19AF264F00362BAF /* RainViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainViewViewController.m; sourceTree = "<group>"; };
 		EE0A38ED19AF26B800362BAF /* yudi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yudi.png; sourceTree = "<group>"; };
+		EE8F6F5619B1E44C00141D1E /* CUSSenderRain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CUSSenderRain@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		EE0A38E519AF0B4E00362BAF /* img */ = {
 			isa = PBXGroup;
 			children = (
+				EE8F6F5619B1E44C00141D1E /* CUSSenderRain@2x.png */,
 				EE0A38ED19AF26B800362BAF /* yudi.png */,
 				EE0A38E719AF0B4E00362BAF /* cloud@2x.png */,
 			);
@@ -257,6 +260,7 @@
 				EE0A38C019AF09D700362BAF /* Images.xcassets in Resources */,
 				EE0A38EE19AF26B800362BAF /* yudi.png in Resources */,
 				EE0A38B219AF09D700362BAF /* InfoPlist.strings in Resources */,
+				EE8F6F5719B1E44C00141D1E /* CUSSenderRain@2x.png in Resources */,
 				EE0A38E019AF0A4600362BAF /* HomeViewController.xib in Resources */,
 				EE0A38E919AF0B4E00362BAF /* cloud@2x.png in Resources */,
 			);
@@ -479,6 +483,7 @@
 				EE0A38D819AF09D700362BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE0A38D919AF09D700362BAF /* Build configuration list for PBXNativeTarget "weatherEffectsTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +492,7 @@
 				EE0A38DB19AF09D700362BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
