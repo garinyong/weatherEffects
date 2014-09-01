@@ -47,6 +47,9 @@
     rainCell.contents		= (id) [[UIImage imageNamed:@"CUSSenderRain"] CGImage];
 	rainCell.color			= [[UIColor colorWithRed:112/255.0 green:148/255.0 blue:176/255.0 alpha:1] CGColor];
     
+    rainCell.emissionLongitude = 0.01 * M_PI;
+//    rainCell.spin = 0.1 * M_PI;
+    
     rainCell.birthRate		= 40;    //每s 发射的粒子个数
 	rainCell.lifetime		= 8.0;   //每个粒子显示的时间
     rainCell.lifetimeRange  = 2;     //变化幅度
